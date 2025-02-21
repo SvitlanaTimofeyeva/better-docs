@@ -1,8 +1,8 @@
 const input =
 `
 /**
- * Type representing the Sample.Router
- * @memberof Sample
+ * Type representing the AdminBro.Router
+ * @memberof AdminBro
  * @alias RouterType
  */
 export type RouterType = {
@@ -21,7 +21,7 @@ export type RouterType = {
 `
 
 const outputs = [
-  '* @memberof Sample',
+  '* @memberof AdminBro',
   '* @alias RouterType',
   '* @typedef {object} RouterType',
   '* @property {Array<object>} assets',
